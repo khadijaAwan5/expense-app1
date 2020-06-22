@@ -1,38 +1,67 @@
-.App {
+.Expense{
+  max-width: 5in;
+  min-height: 5in;
+  border-radius: .5in;
+  margin: 0 auto;
+  background-color:lightslategray;
+  box-shadow: 0 0 10px gray;
+  margin-top: 0px;
+  padding: 15px 50px;
+  
+}
+
+.Middle{
   text-align: center;
-}
+  margin-left: 1in;
+  width: 3in;
+  height: .4in;
+  background-origin: padding-box;
+  box-sizing: border-box;
+  justify-content: stretch;
+  background-color: #909fad;
+  border-radius: .5in;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.Tracker{
+  display:flex;
+  justify-content: space-around;
+  background-color:lightslategray;
+  box-shadow: 0 0 1in #909fad;
+  border-radius: 0em;
+  box-sizing: inherit;
+  border-radius: .5in;
+  border-color: indigo;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+}
+.transaction-list{
+  margin: 0;
+  padding: 0;
+  margin-bottom: .7in;
+}
+.transaction-list > li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding:  10px 5px;
+  background-color: white;
+  margin: 5px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.transaction form{
+  width: 20%;
+  margin: 10px 0;
+  padding: 5px 0;
+  
+  
+  
 }
+.mango{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+  
+  margin-left: 1.5in;
+ margin-bottom: .3in;
+
 }
